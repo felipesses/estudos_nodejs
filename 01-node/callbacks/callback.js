@@ -53,7 +53,6 @@ getUser(resolveUser = (error, user) => {
                 return
             }
 
-
             console.log(`
                 Name: ${user.name},
                 Phone: (${phone.ddd}) ${phone.phone}

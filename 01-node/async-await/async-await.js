@@ -35,10 +35,6 @@ getAddress = (idUser, callback) => {
 const util = require('util')
 const getAddressAsync = util.promisify(getAddress)
 
-
-
-
-
 main = async () => {
     try {
         const user = await getUser()
